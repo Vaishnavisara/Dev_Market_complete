@@ -48,10 +48,10 @@ with app.app_context():
 
 # Import user loader function and auth blueprint from google_auth.py
 from models import User
-from google_auth import google_auth
+# from google_auth import google_auth
 
 # Register blueprints
-app.register_blueprint(google_auth)
+# app.register_blueprint(google_auth)
 
 # Import payment blueprint
 from payment import payment_bp
